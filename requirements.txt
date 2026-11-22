@@ -1,0 +1,11 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pillow>=10.0
+numpy>=1.26
+opencv-python-headless>=4.9
+faster-whisper>=1.0
+# faster-whisper 1.2.x still passes metadata_errors to av.open(); PyAV 18+ removed it.
+av>=12,<18
+rembg>=2.0.57
+onnxruntime>=1.17
